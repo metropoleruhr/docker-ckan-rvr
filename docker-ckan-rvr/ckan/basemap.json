@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Luftbilder",
+        "type" : "wms",
+        "url" : "https://geodaten.metropoleruhr.de/dop/dop?",
+        "layer" : "dop",
+        "srs" : "EPSG:4326",
+        "extent" : [-180,-90,180,90] #ToDo
+    },
+    {
+        "title": "Stadtplan Light",
+        "type" : "wms",
+        "url" : "https://geodaten.metropoleruhr.de/spw2?",
+        "layer" : "spw2_light",
+        "srs" : "EPSG:4326",
+        "extent" : [-180,-90,180,90] #ToDo
+    },
+    {
+        "title": "Stadtplan GrauBlau",
+        "type" : "wms",
+        "url" : "https://geodaten.metropoleruhr.de/spw2?",
+        "layer" : "spw2_graublau",
+        "srs" : "EPSG:4326",
+        "extent" : [-180,-90,180,90] #ToDo
+    },
+    {
+        "title": "Stadtplan SchwarzWeiß",
+        "type" : "wms",
+        "url" : "https://geodaten.metropoleruhr.de/spw2?",
+        "layer" : "spw2_schwarzweiss",
+        "srs" : "EPSG:4326",
+        "extent" : [-180,-90,180,90] #ToDo
+    }
+]
