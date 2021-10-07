@@ -82,7 +82,7 @@ RUN ckan-pip install --upgrade --no-cache-dir -r $CKAN_VENV/src/ckanext-geoview/
 RUN ckan-pip install -e "git+https://github.com/ckan/ckanext-mapviews.git#egg=ckanext-mapviews"
 RUN ckan-pip install -e "git+https://github.com/ckan/ckanext-pages.git#egg=ckanext-pages"
 RUN ckan-pip install --upgrade --no-cache-dir -r $CKAN_VENV/src/ckanext-pages/requirements.txt
-RUN ckan-pip install -e "svn+https://github.com/metropoleruhr/ckanext-rvr#egg=ckanext-rvr"
+RUN ckan-pip install -e "git+https://github.com/metropoleruhr/ckanext-rvr#egg=ckanext-rvr"
 RUN chown www-data:www-data -R /var/log/apache2
 COPY ./apache2/sites-enabled /etc/apache2/
 USER www-data
