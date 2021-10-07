@@ -30,13 +30,10 @@ RUN apt-get -q -y update \
     postgresql-client \
     build-essential \
     git-core \
-    subversion \
-    vim \
     wget \
     curl \
     apache2 \
     apache2-utils \
-    libapache2-mod-rpaf \	
     libapache2-mod-wsgi \
     zlib1g-dev \
     && apt-get -q clean \
